@@ -1,7 +1,7 @@
 # LoL Intramural Standings
 
 A small C++ desktop app (Dear ImGui + GLFW) for tracking and displaying tournament standings.
-CMake downloads ImGui and GLFW automatically the first time you build — you only need a compiler, CMake and Git.
+CMake downloads ImGui and GLFW automatically the first time you build you only need a compiler, CMake and Git.
 
 ## Build
 
@@ -55,5 +55,5 @@ Loads saves from every earlier version. First-version results (single winner, no
 series win with a 1-0 game score. New saves add one `G` line (series per team), which earlier
 versions simply ignore, so older builds can still open them.
 
-Everything saves automatically to `league_data.txt` in the folder you run the app from —
+Everything saves automatically to `league_data.txt` in the folder you run the app from
 copy that file to back up or move the league.
